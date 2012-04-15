@@ -1,0 +1,16 @@
+title: "Lakeside Machine LLC"
+interpolate: false
+
+profiles:
+  development:
+  staging:
+    base_url: http://staging.lsmachine.com/
+    deploy:
+      host: lsmachine.com
+      path: /home/tcrawley/staging.lsmachine.com/
+  production:
+    base_url: http://lsmachine.com/
+    deploy:
+      host: lsmachine.com
+      path: /home/tcrawley/lsmachine.com/
+

@@ -1,0 +1,15 @@
+$blue: #33f;
+$navbarBackground: $blue;
+$navbarBackgroundHighlight: $blue - #111;
+
+@import "bootstrap";
+
+.navbar .nav > li > a {
+  color: #ddd;
+}
+
+p.address {
+  font-weight: bold;
+}
+
+@import "bootstrap-responsive";
