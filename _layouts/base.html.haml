@@ -15,7 +15,7 @@
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          %a.brand{ :href=>'/' } Lakeside Machine LLC
+          %a.brand{ :href=>'/' } Lakeside Machine
           %a.btn.btn-navbar{'data-toggle'=>'collapse', 'data-target'=>'.nav-collapse'}
             %span.icon-bar
             %span.icon-bar
@@ -25,11 +25,13 @@
               %li
                 %a{ :href=>'/' } Home
               %li
-                %a{ :href=>'/shop/' } Our Shop
-              %li
-                %a{ :href=>'/people/' } Our People
-              %li
-                %a{ :href=>'/work/' } Our Work
+                %a{ :href=>'/products/' } Products
+              //%li
+              //  %a{ :href=>'/shop/' } Our Shop
+              //%li
+              //  %a{ :href=>'/people/' } Our People
+              //%li
+              //  %a{ :href=>'/work/' } Our Work
     .container
       ~ content
       %hr

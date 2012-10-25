@@ -8,6 +8,14 @@ $navbarBackgroundHighlight: $blue - #111;
   color: #ddd;
 }
 
+.page-header > p {
+  margin-top: 10px;
+}
+
+.page-header p {
+  font-style: italic;
+}
+
 p.address {
   font-weight: bold;
 }
